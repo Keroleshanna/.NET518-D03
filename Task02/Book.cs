@@ -20,7 +20,5 @@ namespace Task02
             ISBN = iSBN;
             Availablility = availablility;
         }
-
-
     }
 }

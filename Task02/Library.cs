@@ -11,6 +11,7 @@ namespace Task02
     {
         private readonly List<Book> books = [];
         private readonly List<Book> Borrowing = [];
+
         public void AddBook(Book book)
         {
             books.Add(book);

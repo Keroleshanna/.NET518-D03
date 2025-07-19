@@ -1,12 +1,12 @@
 ﻿namespace Task02
 {
-
     internal class Program
     {
         static void Main(string[] args)
         {
             Library library = new Library();
-
+           
+            
             // Adding books to the library
             library.AddBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565"));
             library.AddBook(new Book("To Kill a Mockingbird", "Harper Lee", "9780061120084"));
@@ -28,6 +28,4 @@
         }
 
     }
-
-
 }
